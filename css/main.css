@@ -1,0 +1,75 @@
+@import "reset.css";
+@import "style.css";
+@import "hover.css";
+@import "scroll.css";
+@import "animations.css";
+@import "adaptive/adaptive.css";
+@import "adaptive/responsive.css";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #101010;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.red {
+    color: #d90a2c;
+}
+
+/* Paddings */
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1000;
+
+    background-color: #141414;
+    border-bottom: 1px solid #505050;
+}
+
+.main {
+    padding-top: 135px;
+}
+
+.footer {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Shape */
+
+.shape {
+    position: absolute;
+
+    margin: auto;
+
+    left: 0;
+    right: 0;
+
+    width: 400px;
+    height: 400px;
+
+    background: #D90A2C;
+    opacity: 0.95;
+    filter: blur(175px);
+
+    z-index: -1;
+}

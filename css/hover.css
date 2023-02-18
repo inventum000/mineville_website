@@ -1,0 +1,80 @@
+/* Nav LINKS-LINK */
+.nav__links-link:hover {
+    color: #d90a2c;
+
+    border-bottom: 1px solid #d90a2c;
+    padding-bottom: 4px;
+
+    transition: 0.1s ease;
+}
+
+/* Nav SOCIALS-IMG */
+.nav__socials-img:hover {
+    transform: scale(1.1);
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Nav BUTTON */
+.nav__button:hover {
+    transform: scale(1.1);
+
+    background-color: #ff1b41;
+    border: 1px solid #ff1b41;
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Section BASE-BTN-FIRST */
+.base__button-first:hover {
+    transform: scale(1.1);
+
+    background-color: #ff1b41;
+    border: 1px solid #ff1b41;
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Section BASE-BTN-SECOND */
+.base__button-second:hover {
+    transform: scale(1.1);
+
+    background-color: #202020;
+    border: 1px solid #404040;
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Section purchase-BTN-FIRST */
+.purchase__button-first:hover {
+    transform: scale(1.1);
+
+    background-color: #ff1b41;
+    border: 1px solid #ff1b41;
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Section purchase-BTN-SECOND */
+.purchase__button-second:hover {
+    transform: scale(1.1);
+
+    background-color: #202020;
+    border: 1px solid #404040;
+
+    transition: 0.2s ease-in-out;
+}
+
+/* Footer IMG-TELEGRAM */
+.footer__telegram-img:hover {
+    transform: scale(1.1);
+
+    transition: 0.3s ease-in-out;
+}
+
+/* Footer IMG-DISCORD */
+.footer__discord-img:hover {
+    transform: scale(1.1);
+
+    transition: 0.3s ease-in-out;
+}
